@@ -21,7 +21,7 @@ def sending_sms(text='Wake up Neo...', receiver=os.getenv('RECEIVER_PHONE')):
 
 def main():
     receiver = input('Please enter receiver phone: ')
-    text = input('Please enter your message: - ')
+    text = input('Please enter your message: ')
     print(sending_sms(text=text, receiver=receiver))
 
 
